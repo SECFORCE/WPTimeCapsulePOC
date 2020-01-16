@@ -89,7 +89,7 @@ function wptc_login_as_admin(){
 For this test we used:
   - A docker-compose ready Wordpress Image https://github.com/nezhar/wordpress-docker-compose
   - wp-time-capsule 1.21.15
-  - Burp suite
+  - Burp Suite
 
 Steps involved:
   1. Access to a new session on the browser
@@ -98,5 +98,5 @@ Steps involved:
   4. Replace any part of the BODY with the following string: IWP_JSON_PREFIX
   5. Go back to the home page
 
-Cool gif:
+
 ![](https://github.com/SECFORCE/WPTimeCapsulePOC/blob/master/POC.gif)
