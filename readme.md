@@ -88,13 +88,13 @@ function wptc_login_as_admin(){
 ## Replicating the issue
 For this test we used:
   - A docker-compose ready Wordpress Image https://github.com/nezhar/wordpress-docker-compose
-  - wp-time-capsule 1.21.15
+  - wp-time-capsule 1.21.15 https://downloads.wordpress.org/plugin/wp-time-capsule.1.21.15.zip
   - Burp Suite
 
 Steps involved:
   1. Access to a new session on the browser
   2. Go to wp-login.php
-  3. Writedummy username and password
+  3. Write dummy username and password
   4. Replace any part of the BODY with the following string: IWP_JSON_PREFIX
   5. Go back to the home page
 
