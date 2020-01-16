@@ -97,3 +97,6 @@ Steps involved:
   3. Writedummy username and password
   4. Replace any part of the BODY with the following string: IWP_JSON_PREFIX
   5. Go back to the home page
+
+Cool gif:
+![](https://github.com/SECFORCE/WPTimeCapsulePOC/blob/master/POC.gif)
